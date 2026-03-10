@@ -1,0 +1,39 @@
+.nav {
+    height: 50px;
+    background-color: #C49102;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    border-radius: 20px;
+}
+.nav ul{
+    list-style: none;
+    padding-top: 10px;
+}
+.nav ul li{
+    display: inline;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin-left: 55px;
+    color:black;
+    font-size: 22px;
+    font-family: candara;
+}
+.nav ul li a:hover{
+    color:brown;
+}
+.nav ul li ul{
+    display: none;
+}
+.nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    width: 160px;
+    margin-left: 260px;
+    background-color: #C49102;
+}
+.nav ul li ul li{
+    margin-left: -45px;
+    line-height: 50px;
+}

@@ -1,0 +1,10 @@
+#demo1{
+    font-style: italic;
+    font-family: cursive;
+    color:red;
+}
+#demo2{
+    font-size: 30px;
+    font-weight: bolder;
+    color:green;
+}

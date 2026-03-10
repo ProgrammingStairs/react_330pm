@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+#nav{
+    height: 60px;
+    background-color: black;
+}
+#nav ul{
+    list-style: none;
+    padding-top: 13px;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a{
+    font-size: 25px;
+    color:white;
+    margin-left: 80px;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    color:red;
+}

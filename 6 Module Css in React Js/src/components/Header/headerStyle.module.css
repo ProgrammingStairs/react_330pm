@@ -1,0 +1,14 @@
+.header {
+    height: 60px;
+}
+
+.logoImg {
+    height: 60px;
+}
+
+.heading {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 10px;
+    color:brown;
+}
